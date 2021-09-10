@@ -2,7 +2,7 @@ public class Bank {
     public static void main(String[] args) throws AgeException {
         try {
             try {
-                Client Tanya = new Client("Tanya", -56);
+                Client tanyaanya = new Client("Tanya", -56);
                 if (Tanya.age < 0) {
                     throw new Exception("Oops");
                 }
